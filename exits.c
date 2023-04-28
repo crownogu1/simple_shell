@@ -1,9 +1,12 @@
+#include "main.h"
+
 /**
  * handle_exit_command - Handles the built-in exit command.
  *
  * @u_tokns: The command and its arguments as an array of strings.
  * @line: The user's input line.
  */
+
 void handle_exit_command(char **u_tokns, char *line)
 {
 	int status = EXIT_SUCCESS;
