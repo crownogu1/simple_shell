@@ -25,6 +25,7 @@ int count_input(char *str);
 int count_delims(char *str, char *del);
 int _putchar(char c);
 void _puts(char *str);
+void free_env(void);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void signal_handler(int sig_id);
 void _open_help(void);
